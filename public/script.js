@@ -15,7 +15,7 @@ function ready () {
         var formActionUrl = form.action; // 'form.action' is the url '/create-post'
         var formData = new FormData(form);
 
-        postBlogposts(formActionUrl, formData);
+        postBlogposts(formActionUrl,formData);
     });
 }
 
