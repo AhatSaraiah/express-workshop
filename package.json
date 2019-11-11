@@ -1,0 +1,23 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "nodegirls workshop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhatSaraiah/express-workshop.git"
+  },
+  "author": "ahat saraiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhatSaraiah/express-workshop/issues"
+  },
+  "homepage": "https://github.com/AhatSaraiah/express-workshop#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0"
+  }
+}
