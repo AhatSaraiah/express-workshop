@@ -10,20 +10,28 @@
     <body>
         <header>
             <img class="main-logo" src="./img/logo1.png">
-            <h1 class="title">Node Girls</h1>
+            <h1 class="title">Ahat's Blog</h1>
         </header>
         <main>
-            <div class="entry-container">
-                <!--PASTE YOUR CODE HERE!! -->
-            </div>
-
+          <div class="entry-container">
+                <h3>let's write a new Blog :')</h3>
+            <form action="/create-post" method="POST">
+             <textarea name="blogpost" rows="10" cols="14"></textarea>
+             <button type="submit">Send</button>
+            </form>
+         </div>
             <br/>
             <hr/>
             <br/>
-
-            <h2>Recent Posts</h2>
-
+            <h2>Recent Posts</h2>   
             <div class="post-container"></div>
+            <!--
+                 <form action="/post-container" method="GET">
+                <pre>
+                   <h3><a href="posts.json" >post-container</a></h3>
+                </pre>
+                </form>
+             -->
         </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="./script.js" type="text/javascript"></script>
